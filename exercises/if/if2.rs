@@ -7,9 +7,11 @@
 
 pub fn foo_if_fizz(fizzish: &str) -> String {
     if fizzish == "fizz" {
-        "foo".to_own()
+        "foo".to_owned()
+    } else if fizzish == "fuzz" {
+        "bar".to_owned()
     } else {
-        "bar".to_own()
+        "baz".to_owned()
     }
 }
 
