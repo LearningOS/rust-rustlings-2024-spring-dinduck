@@ -36,8 +36,8 @@ impl Package {
     }
 
     fn get_fees(&self, cents_per_gram: i32) -> i32 {
-        self.weight_in_grams * cents_per_gram
         // Something goes here...
+        self.weight_in_grams * cents_per_gram
     }
 }
 
