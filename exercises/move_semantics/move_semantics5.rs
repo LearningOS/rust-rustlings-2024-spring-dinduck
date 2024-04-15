@@ -8,20 +8,11 @@
 
 fn main() {
     let mut x = 100;
-<<<<<<< HEAD
     {
         let y = &mut x;
         *y += 100;
     }
     let z = &mut x;
-=======
-    let y = &mut x;
-    {
-        *y += 100;
-    }
-    
-        let z = &mut x;
->>>>>>> e7b90248970c29182cba86635a0ca686fadbd01e
     *z += 1000;
     assert_eq!(x, 1200);
 }

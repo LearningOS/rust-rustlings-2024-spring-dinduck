@@ -27,17 +27,6 @@ fn create_order_template() -> Order {
         count: 0,
     }
 }
-fn create_myorder_template() -> Order {
-    Order {
-        name: String::from("Hacker in Rust"),
-        year: 2019,
-        made_by_phone: false,
-        made_by_mobile: false,
-        made_by_email: true,
-        item_number: 123,
-        count: 1,
-    }
-}
 
 fn create_myorder_template() -> Order {
     Order {
